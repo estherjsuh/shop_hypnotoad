@@ -1,5 +1,3 @@
-//item counts
-
 import {createSelector} from 'reselect';
 
 //takes state and returns a slice of it

@@ -1,19 +1,16 @@
 import {createSelector} from 'reselect';
 
-//object mapper
-const COLLECTION_ID_MAP = {
-    hats: 1,
-    sneakers: 2,
-    jackets: 3,
-    womens: 4,
-    mens: 5
-};
 
 const selectShop = state => state.shop;
 
 export const selectCollections = createSelector(
     [selectShop],
     shop => shop.collections
+);
+
+export const selectCollectionsForPreview = createSelector(
+    [selectCollections],
+    collections => Object.keys(collections).map(key => collections[key]) //get value of collection objects at that key
 );
 
 export const selectCollection = collectionUrlParam => 
