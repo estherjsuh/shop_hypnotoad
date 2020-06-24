@@ -23,5 +23,5 @@ const MenuItem = ({ title, imageUrl, size, history, linkUrl, match }) => (
 
 );
 
-
+//withRouter gives you access to match, location and history props
 export default withRouter(MenuItem); 
