@@ -1,4 +1,4 @@
-# shop hypnotoad
+# <img src="https://github.com/estherjsuh/shop_hypnotoad/blob/master/src/assets/toad.svg"> shop hypnotoad
 
 
 ### An ecommerce website built with React + Redux
