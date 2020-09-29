@@ -1,8 +1,9 @@
 # shop hypnotoad
 
-## An ecommerce website built with React + Redux
+### An ecommerce website built with React + Redux
+The deployed application can be found here: https://shop-hypnotoad.herokuapp.com/
 
-## Install & Run App
+### Install & Run App
 
 1. clone this repo
 ```
