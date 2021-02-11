@@ -4,33 +4,33 @@ const INITIAL_STATE ={
           title: 'bender',
           imageUrl: 'https://i.ibb.co/nnxF6tL/bender.jpg',
           id: 1,
-          linkUrl: 'shop/hats'
+          linkUrl: 'shop/bender'
         },
         {
           title: 'fry',
           imageUrl: 'https://i.ibb.co/56pm0JN/fry3.png',
           id: 2,
-          linkUrl: 'shop/jackets'
+          linkUrl: 'shop/fry'
         },
         {
-          title: 'leila',
+          title: 'leela',
           imageUrl: 'https://i.ibb.co/kmdj29w/leila.png',
           id: 3,
-          linkUrl: 'shop/sneakers'
+          linkUrl: 'shop/leela'
         },
         {
           title: 'zoidberg',
           imageUrl: 'https://i.ibb.co/bsvjT9h/wallup-net.jpg',
           size: 'large',
           id: 4,
-          linkUrl: 'shop/womens'
+          linkUrl: 'shop/zoidberg'
         },
         {
-          title: 'planet express ship',
+          title: 'planetexpress',
           imageUrl: 'https://i.ibb.co/jW0PfPG/planetex.jpg',
           size: 'large',
           id: 5,
-          linkUrl: 'shop/mens'
+          linkUrl: 'shop/planetexpress'
         } ]
 };
 
